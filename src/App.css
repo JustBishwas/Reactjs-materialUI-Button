@@ -1,5 +1,10 @@
+*{
+  overflow: hidden;
+}
+
 .App {
   text-align: center;
+  margin-top: 70px;
 }
 
 .App-logo {
@@ -12,7 +17,9 @@
     animation: App-logo-spin infinite 20s linear;
   }
 }
-
+input {
+  color:white !important;
+}
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
